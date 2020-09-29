@@ -1,0 +1,6 @@
+framework module Pods_Image_Cropper {
+  umbrella header "Pods-Image Cropper-umbrella.h"
+
+  export *
+  module * { export * }
+}

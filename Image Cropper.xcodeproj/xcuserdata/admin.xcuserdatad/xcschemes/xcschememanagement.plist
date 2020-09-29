@@ -7,7 +7,25 @@
 		<key>Image Cropper.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>5</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>841979F62460603B0086BB75</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>84197A0F2460603C0086BB75</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>84197A1A2460603C0086BB75</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D748A497DB0EAE9FBA712CC /* Pods_Image_Cropper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FCF946D2BFF461BEA320DA5 /* Pods_Image_Cropper.framework */; };
 		841979FB2460603B0086BB75 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841979FA2460603B0086BB75 /* AppDelegate.swift */; };
 		841979FD2460603B0086BB75 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841979FC2460603B0086BB75 /* SceneDelegate.swift */; };
 		841979FF2460603B0086BB75 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841979FE2460603B0086BB75 /* ViewController.swift */; };
@@ -16,6 +17,8 @@
 		84197A0A2460603C0086BB75 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84197A082460603C0086BB75 /* LaunchScreen.storyboard */; };
 		84197A152460603C0086BB75 /* Image_CropperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84197A142460603C0086BB75 /* Image_CropperTests.swift */; };
 		84197A202460603C0086BB75 /* Image_CropperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84197A1F2460603C0086BB75 /* Image_CropperUITests.swift */; };
+		A96EAF7C65797041BB0A5FE1 /* Pods_Image_Cropper_Image_CropperUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FB7171424F64E82A6EF668D /* Pods_Image_Cropper_Image_CropperUITests.framework */; };
+		F0D06662D9586BFD82E873B6 /* Pods_Image_CropperTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB4278336539B9E9C530B21D /* Pods_Image_CropperTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		20AA9C27B406D7CDF6702174 /* Pods-Image Cropper-Image CropperUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Image Cropper-Image CropperUITests.debug.xcconfig"; path = "Target Support Files/Pods-Image Cropper-Image CropperUITests/Pods-Image Cropper-Image CropperUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		210CBCB876468C62A3432C5E /* Pods-Image Cropper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Image Cropper.release.xcconfig"; path = "Target Support Files/Pods-Image Cropper/Pods-Image Cropper.release.xcconfig"; sourceTree = "<group>"; };
+		2FB7171424F64E82A6EF668D /* Pods_Image_Cropper_Image_CropperUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Image_Cropper_Image_CropperUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		32B413E128F11607A7DA6F66 /* Pods-Image CropperTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Image CropperTests.release.xcconfig"; path = "Target Support Files/Pods-Image CropperTests/Pods-Image CropperTests.release.xcconfig"; sourceTree = "<group>"; };
+		476C3E7F10B1619A3043678E /* Pods-Image Cropper-Image CropperUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Image Cropper-Image CropperUITests.release.xcconfig"; path = "Target Support Files/Pods-Image Cropper-Image CropperUITests/Pods-Image Cropper-Image CropperUITests.release.xcconfig"; sourceTree = "<group>"; };
 		841979F72460603B0086BB75 /* Image Cropper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Image Cropper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		841979FA2460603B0086BB75 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		841979FC2460603B0086BB75 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +59,10 @@
 		84197A1B2460603C0086BB75 /* Image CropperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Image CropperUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		84197A1F2460603C0086BB75 /* Image_CropperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image_CropperUITests.swift; sourceTree = "<group>"; };
 		84197A212460603C0086BB75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FCF946D2BFF461BEA320DA5 /* Pods_Image_Cropper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Image_Cropper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB4278336539B9E9C530B21D /* Pods_Image_CropperTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Image_CropperTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E403BD5BE8C9DDD50F47E388 /* Pods-Image CropperTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Image CropperTests.debug.xcconfig"; path = "Target Support Files/Pods-Image CropperTests/Pods-Image CropperTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EE3C2665C3C0E6789404FE53 /* Pods-Image Cropper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Image Cropper.debug.xcconfig"; path = "Target Support Files/Pods-Image Cropper/Pods-Image Cropper.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D748A497DB0EAE9FBA712CC /* Pods_Image_Cropper.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0D06662D9586BFD82E873B6 /* Pods_Image_CropperTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +86,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A96EAF7C65797041BB0A5FE1 /* Pods_Image_Cropper_Image_CropperUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3C4E31E0F2071F33DF2847B0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9FCF946D2BFF461BEA320DA5 /* Pods_Image_Cropper.framework */,
+				2FB7171424F64E82A6EF668D /* Pods_Image_Cropper_Image_CropperUITests.framework */,
+				DB4278336539B9E9C530B21D /* Pods_Image_CropperTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4F3DAAB3F96B9C263DE101C5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EE3C2665C3C0E6789404FE53 /* Pods-Image Cropper.debug.xcconfig */,
+				210CBCB876468C62A3432C5E /* Pods-Image Cropper.release.xcconfig */,
+				20AA9C27B406D7CDF6702174 /* Pods-Image Cropper-Image CropperUITests.debug.xcconfig */,
+				476C3E7F10B1619A3043678E /* Pods-Image Cropper-Image CropperUITests.release.xcconfig */,
+				E403BD5BE8C9DDD50F47E388 /* Pods-Image CropperTests.debug.xcconfig */,
+				32B413E128F11607A7DA6F66 /* Pods-Image CropperTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		841979EE2460603B0086BB75 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +124,8 @@
 				84197A132460603C0086BB75 /* Image CropperTests */,
 				84197A1E2460603C0086BB75 /* Image CropperUITests */,
 				841979F82460603B0086BB75 /* Products */,
+				4F3DAAB3F96B9C263DE101C5 /* Pods */,
+				3C4E31E0F2071F33DF2847B0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -138,9 +179,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 84197A242460603C0086BB75 /* Build configuration list for PBXNativeTarget "Image Cropper" */;
 			buildPhases = (
+				CA9539F3AD5D5D1F0B81C195 /* [CP] Check Pods Manifest.lock */,
 				841979F32460603B0086BB75 /* Sources */,
 				841979F42460603B0086BB75 /* Frameworks */,
 				841979F52460603B0086BB75 /* Resources */,
+				15D832CCA9566FE29B63569A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -155,6 +198,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 84197A272460603C0086BB75 /* Build configuration list for PBXNativeTarget "Image CropperTests" */;
 			buildPhases = (
+				0AD3315E039C0BA873F8004E /* [CP] Check Pods Manifest.lock */,
 				84197A0C2460603C0086BB75 /* Sources */,
 				84197A0D2460603C0086BB75 /* Frameworks */,
 				84197A0E2460603C0086BB75 /* Resources */,
@@ -173,9 +217,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 84197A2A2460603C0086BB75 /* Build configuration list for PBXNativeTarget "Image CropperUITests" */;
 			buildPhases = (
+				22AE3A78E39F8459D6FF0C97 /* [CP] Check Pods Manifest.lock */,
 				84197A172460603C0086BB75 /* Sources */,
 				84197A182460603C0086BB75 /* Frameworks */,
 				84197A192460603C0086BB75 /* Resources */,
+				58179EC43078118D02B37D82 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -256,6 +302,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0AD3315E039C0BA873F8004E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Image CropperTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		15D832CCA9566FE29B63569A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Image Cropper/Pods-Image Cropper-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Image Cropper/Pods-Image Cropper-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Image Cropper/Pods-Image Cropper-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		22AE3A78E39F8459D6FF0C97 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Image Cropper-Image CropperUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		58179EC43078118D02B37D82 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Image Cropper-Image CropperUITests/Pods-Image Cropper-Image CropperUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Image Cropper-Image CropperUITests/Pods-Image Cropper-Image CropperUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Image Cropper-Image CropperUITests/Pods-Image Cropper-Image CropperUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CA9539F3AD5D5D1F0B81C195 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Image Cropper-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		841979F32460603B0086BB75 /* Sources */ = {
@@ -436,6 +585,7 @@
 		};
 		84197A252460603C0086BB75 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE3C2665C3C0E6789404FE53 /* Pods-Image Cropper.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -453,6 +603,7 @@
 		};
 		84197A262460603C0086BB75 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 210CBCB876468C62A3432C5E /* Pods-Image Cropper.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -470,6 +621,7 @@
 		};
 		84197A282460603C0086BB75 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E403BD5BE8C9DDD50F47E388 /* Pods-Image CropperTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -491,6 +643,7 @@
 		};
 		84197A292460603C0086BB75 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32B413E128F11607A7DA6F66 /* Pods-Image CropperTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +665,7 @@
 		};
 		84197A2B2460603C0086BB75 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20AA9C27B406D7CDF6702174 /* Pods-Image Cropper-Image CropperUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -531,6 +685,7 @@
 		};
 		84197A2C2460603C0086BB75 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 476C3E7F10B1619A3043678E /* Pods-Image Cropper-Image CropperUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
